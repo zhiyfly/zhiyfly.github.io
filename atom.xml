@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-10T06:23:21.000Z</updated>
+  <updated>2016-09-10T06:28:42.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,14 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>dash_source_analyses.md</title>
+    <title>DYCI工具分析</title>
     <link href="http://yoursite.com/2016/09/10/dash-source-analyses-md/"/>
     <id>http://yoursite.com/2016/09/10/dash-source-analyses-md/</id>
     <published>2016-09-10T02:51:54.000Z</published>
-    <updated>2016-09-10T06:23:21.000Z</updated>
+    <updated>2016-09-10T06:28:42.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="DYCI工具分析"><a href="#DYCI工具分析" class="headerlink" title="DYCI工具分析"></a>DYCI工具分析</h1><hr>
-<p>DYCI由三部分功能模块组成，脚本+plugin+framework。<br><img src="./1472797245938.png" alt="Alt text"></p>
+    <content type="html"><![CDATA[<p>DYCI由三部分功能模块组成，脚本+plugin+framework。<br><img src="./1472797245938.png" alt="Alt text"></p>
 <p>脚本+plugin在执行install.sh时完成。<br>framework需要自己集成到app里面。</p>
 <h3 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h3><ul>
 <li>在安装阶段，clang compiler会被替换成clang-proxy compiler，并把真正的clang备份。</li>
@@ -117,8 +116,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;DYCI工具分析&quot;&gt;&lt;a href=&quot;#DYCI工具分析&quot; class=&quot;headerlink&quot; title=&quot;DYCI工具分析&quot;&gt;&lt;/a&gt;DYCI工具分析&lt;/h1&gt;&lt;hr&gt;
-&lt;p&gt;DYCI由三部分功能模块组成，脚本+plugin+framework。&lt;br&gt;&lt;i
+      &lt;p&gt;DYCI由三部分功能模块组成，脚本+plugin+framework。&lt;br&gt;&lt;img src=&quot;./1472797245938.png&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;脚本+plugin在执行install.sh时完成。&lt;br&gt;framework需要自己集
     
     </summary>
     
