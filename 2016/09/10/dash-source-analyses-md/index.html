@@ -8,16 +8,37 @@
 
 <title>
   
-    zhiyfly&#39;s blog
+    dash_source_analyses.md
   
 </title>
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="zhiyfly's blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="DYCI工具分析
+DYCI由三部分功能模块组成，脚本+plugin+framework。
+脚本+plugin在执行install.sh时完成。framework需要自己集成到app里面。
+How it works
+在安装阶段，clang compiler会被替换成clang-proxy compiler，并把真正的clang备份。
+在程序第一次编译时，clang-proxy compiler会保存">
+<meta property="og:type" content="article">
+<meta property="og:title" content="dash_source_analyses.md">
+<meta property="og:url" content="http://yoursite.com/2016/09/10/dash-source-analyses-md/index.html">
 <meta property="og:site_name" content="zhiyfly's blog">
+<meta property="og:description" content="DYCI工具分析
+DYCI由三部分功能模块组成，脚本+plugin+framework。
+脚本+plugin在执行install.sh时完成。framework需要自己集成到app里面。
+How it works
+在安装阶段，clang compiler会被替换成clang-proxy compiler，并把真正的clang备份。
+在程序第一次编译时，clang-proxy compiler会保存">
+<meta property="og:image" content="http://yoursite.com/./1472797245938.png">
+<meta property="og:updated_time" content="2016-09-10T06:23:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="zhiyfly's blog">
+<meta name="twitter:title" content="dash_source_analyses.md">
+<meta name="twitter:description" content="DYCI工具分析
+DYCI由三部分功能模块组成，脚本+plugin+framework。
+脚本+plugin在执行install.sh时完成。framework需要自己集成到app里面。
+How it works
+在安装阶段，clang compiler会被替换成clang-proxy compiler，并把真正的clang备份。
+在程序第一次编译时，clang-proxy compiler会保存">
+<meta name="twitter:image" content="http://yoursite.com/./1472797245938.png">
 
 
   <link rel="alternative" href="/atom.xml" title="zhiyfly&#39;s blog" type="application/atom+xml">
@@ -123,35 +144,26 @@
       
         <div style="max-width: 1000px">
       
-          
-
+          <article id="post-dash-source-analyses-md" class="article article-type-post">
+  
+    <h1 class="article-header">
+      dash_source_analyses.md
+    </h1>
   
   
-    <div class="post-list">
-  
 
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2016/09/10/dash-source-analyses-md/" >
-  dash_source_analyses.md
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2016/09/10/dash-source-analyses-md/"><span class="article-date">
+  <div class="article-info">
+    <span class="article-date">
   2016-09-10
 </span>
-</a>
-        
 
-        
+    
 
-      </div>
-      <div class="article-entry">
-        
-          <h1 id="DYCI工具分析"><a href="#DYCI工具分析" class="headerlink" title="DYCI工具分析"></a>DYCI工具分析</h1><hr>
+    
+
+  </div>
+  <div class="article-entry">
+    <h1 id="DYCI工具分析"><a href="#DYCI工具分析" class="headerlink" title="DYCI工具分析"></a>DYCI工具分析</h1><hr>
 <p>DYCI由三部分功能模块组成，脚本+plugin+framework。<br><img src="./1472797245938.png" alt="Alt text"></p>
 <p>脚本+plugin在执行install.sh时完成。<br>framework需要自己集成到app里面。</p>
 <h3 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h3><ul>
@@ -243,72 +255,29 @@
 <li>python中调shell脚本：POpen</li>
 </ul>
 
-        
-      </div>
-    </div>
-
-  
-    </div>
-  
-
-  
-  
-    <div class="post-list">
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2016/08/21/fpandrp/" >
-  函数式和响应式编程
-</a>
-
-      </h3>
+  </div>
+  <footer class="article-footer">
+    
+  <div class="cc">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.c" target="_blank" title="姓名標示-相同方式分享">
+      <img src="/images/cc/cc.png">
       
-
-      <div class="article-info">
-        <a href="/2016/08/21/fpandrp/"><span class="article-date">
-  2016-08-21
-</span>
-</a>
+          <img src="/images/cc/by.png">
         
+          <img src="/images/cc/sa.png">
+      
+      <span>
+        本著作係採用創用 CC 姓名標示-相同方式分享 4.0 國際 授權條款授權.
+      </span>
+    </a>
+  </div>
 
-        
 
-      </div>
-      <div class="article-entry">
-        
-          <h2 id="函数式编程-FP-介绍"><a href="#函数式编程-FP-介绍" class="headerlink" title="函数式编程(FP)介绍"></a>函数式编程(FP)介绍</h2><p>函数式编程是一种编程范式。什么是编程范式呢？范式就是模式、方法，是一种典型的编程风格。常见的编程范式有：面向过程，面向对象，函数式。</p>
-<ul>
-<li>面向过程：又称做命令式编程。认为程序就是一系列的步骤和过程组装起来的。基本单元是变量，语句，函数调用。</li>
-<li>面向对象：将对象作为程序的基本单元。通过对象的组合、对象之间通信来开发程序。</li>
-<li>函数式：把程序当作数学函数的运算过程，避免改变状态和可变数据。</li>
-</ul>
-<p>多范式编程，面向对象中方法也是面向过程的。函数式中也有过程。</p>
-<h3 id="程序的状态"><a href="#程序的状态" class="headerlink" title="程序的状态"></a>程序的状态</h3><p>程序的状态：定义的全局变量和局部变量，还包括当前打开的文件，网络连接，申请的内存。</p>
-<ul>
-<li><p>命令式编程是通过改变变量的值来保存当前程序的状态。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sum = 0 </div><div class="line">for i in range(1,11): </div><div class="line">	sum += i</div></pre></td></tr></table></figure>
-</li>
-<li><p>函数式编程通过函数的参数或者返回值来保存程序的状态。函数一层层的叠加起来，其中每个函数的参数或返回结果来代表了程序的一个中间状态，过程式编程中对变量的修改在这里变成了一次的函数转换（一层的函数叠加）。<br>因为不能修改变量的值，纯函数式编程非常依赖递归。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">(define (addup n) </div><div class="line">	(if (= n 1) </div><div class="line">		1 </div><div class="line">	(+ n (addup (- n 1)))) </div><div class="line"></div><div class="line">(addup 10)</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">(define (addup2 n sum)</div><div class="line">  (if (= n 1)</div><div class="line">    (+ sum 1)</div><div class="line">  (addup2 (- n 1) (+ n sum))))</div><div class="line"></div><div class="line">(addup2 10 0)</div></pre></td></tr></table></figure>
-<h3 id="函数式语言的两个本质特征"><a href="#函数式语言的两个本质特征" class="headerlink" title="函数式语言的两个本质特征"></a>函数式语言的两个本质特征</h3><h4 id="高阶函数"><a href="#高阶函数" class="headerlink" title="高阶函数"></a>高阶函数</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Functions that operate on other functions (accept them as arguments or return value) are called higher order functions.</div></pre></td></tr></table></figure>
-<p>Python就具有高阶函数的性质，比如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">def twice(function, x):</div><div class="line">    return function(function(x))</div><div class="line"></div><div class="line">def f(x):</div><div class="line">    return x + 3</div><div class="line"></div><div class="line">print(twice(f, 7)) # 13</div></pre></td></tr></table></figure></p>
-<p>比如一个常见的函数map，就是一个更高层更抽象的函数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">l = [1,2,3]</div><div class="line">map(lambda x: 2*x, l) # =&gt; [2, 4, 6]</div></pre></td></tr></table></figure></p>
-<p>具有高阶函数性质的编程语言往往也会支持一等函数（First-class function），它是高阶函数概念上的超集。 指的是函数和其它数据类型处于平等地位，不搞特殊，可以把函数赋值给其他变量，也可以作为参数传入另一个函数，或者作为别的函数的返回值。</p>
-<p>####无副作用<br>函数式编程从它的源头<a href="http://en.wikipedia.org/wiki/Lambda_calculus" target="_blank" rel="external">λ演算</a>开始，就是强调函数计算的纯粹性，每个函数的执行都是没有副作用（no side effect）的——函数所有功能就是返回一个新的值，没有其他行为，尤其是不得修改外部变量的值。 典型的长于计算，弱于I/O。<br>缺点：浪费空间。<br>优点：<strong>它使得函数式编程各个独立的部分的执行顺序可以随意打乱</strong>。 而这在命令式编程风格的代码中是不可能的。<br>执行顺序的自由使其得以衍生出一大堆非常有用的特性，比如无锁（lock-free）的并发操作、惰性求值（lazy evaluation），还有在编译器级别上的各种性能优化技术。 特别在并行技术上，Clojure, Haskell, F#, Scala, Erlang这些函数式语言都无一例外地支持强大的并发功能。<br>当然函数式语言不可能真的就不执行I/O，但它通过一些手段来把I/O的影响限制到最小，比如通过Continuations, Monad等技术。</p>
-<h3 id="其他特征"><a href="#其他特征" class="headerlink" title="其他特征"></a>其他特征</h3><h4 id="尾递归（Tail-Recursion）"><a href="#尾递归（Tail-Recursion）" class="headerlink" title="尾递归（Tail Recursion）"></a>尾递归（Tail Recursion）</h4><p>由于递归在函数式编程中被大量使用，如果任其发展，函数栈很快将爆炸。<br>JVM不支持尾递归。</p>
-<h4 id="Persistent-data-structure"><a href="#Persistent-data-structure" class="headerlink" title="Persistent data structure"></a>Persistent data structure</h4><p>又叫做effectively immutable data structure。</p>
-<h2 id="响应式编程-RP-介绍"><a href="#响应式编程-RP-介绍" class="headerlink" title="响应式编程(RP)介绍"></a>响应式编程(RP)介绍</h2>
-        
-      </div>
-    </div>
+    
 
-  
-    </div>
-  
+  </footer>
+</article>
+
 
 
 
